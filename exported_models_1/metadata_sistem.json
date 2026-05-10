@@ -1,0 +1,26 @@
+{
+    "berat": {
+        "jumlah_anak_diekspor": 259,
+        "akurasi_rata_rata": 98.117,
+        "mae_rata_rata": 0.309,
+        "rmse_rata_rata": 0.339,
+        "mape_rata_rata": 1.883,
+        "satuan": "Kg"
+    },
+    "tinggi": {
+        "jumlah_anak_diekspor": 259,
+        "akurasi_rata_rata": 99.728,
+        "mae_rata_rata": 0.285,
+        "rmse_rata_rata": 0.32,
+        "mape_rata_rata": 0.272,
+        "satuan": "Cm"
+    },
+    "lingkar_kepala": {
+        "jumlah_anak_diekspor": 259,
+        "akurasi_rata_rata": 99.735,
+        "mae_rata_rata": 0.131,
+        "rmse_rata_rata": 0.14,
+        "mape_rata_rata": 0.265,
+        "satuan": "Cm"
+    }
+}
