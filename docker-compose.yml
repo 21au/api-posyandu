@@ -1,0 +1,15 @@
+services:
+  api-posyandu:
+    build: .
+    container_name: api-prediksi-posyandu
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    networks:
+      - posyandu-network
+
+networks:
+  posyandu-network:
+    driver: bridge
